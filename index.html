@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="script.js">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | E-commerce product page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <div class="header">
+          <div class="header-log">
+            <div><img class="loggo" src="/images/logo.svg" alt="" /></div>
+            <div class="Collections">
+              <span class="all"> Collections</span>
+              <span class="all"> Men</span>
+              <span class="all"> Women</span>
+              <span class="all"> About</span>
+              <span class="all"> Contact</span>
+            </div>
+          </div>
+          <div class="avat">
+            <div id="cart" class="cart-container">
+              <img class="cart" src="/images/icon-cart.svg" alt="" />
+              <div class="carted">
+                <div class="cartt">Cart</div>
+                <div class="your-cart">Your cart is empty</div>
+              </div>
+            </div>
+            <span
+              ><img class="avatar" src="/images/image-avatar.png" alt=""
+            /></span>
+          </div>
+        </div>
+        <hr />
+      </div>
+
+      <div class="middle-content">
+        <div class="left">
+          <div id="main">
+            <div class="main"><div class="all-header">
+              <img class="main-1" id="maii1" src="/images/image-product-1.jpg" alt="" /></div>
+              <div class="all-header"><img class="main-2" id="maii2" src="/images/image-product-2.jpg" alt="" /></div>
+              <div class="all-header"><img class="main-3" id="maii3" src="/images/image-product-3.jpg" alt="" /></div>
+              <div class="all-header"><img class="main-4" id="maii4" src="/images/image-product-4.jpg" alt="" /></div>
+            </div>
+          </div>
+
+          <div class="meun"> <button class="thumb" data-image="maii1">
+            <img
+              class="meun-1"
+              src="/images/image-product-1-thumbnail.jpg"
+              alt=""
+            /> </button> <button class="thumb" data-image="maii2">
+            <img
+              class="meun-2"
+              src="/images/image-product-2-thumbnail.jpg"
+              alt=""
+            /> </button><button class="thumb" data-image="maii3">
+            <img
+              class="meun-3"
+              src="/images/image-product-3-thumbnail.jpg"
+              alt=""
+            /> </button><button class="thumb" data-image="maii4">
+            <img
+              class="meun-4"
+              src="/images/image-product-4-thumbnail.jpg"
+              alt=""
+            /></button>
+          </div>
+        </div>
+        <div class="right">
+          <nav>Sneaker Company</nav>
+          <span> Fall Limited Edition <br> Sneakers </span>
+          <div class="these">
+            These low-profile sneakers are your perfect casual wear companion.
+            Featuring a durable rubber outer sole, they’ll withstand everything
+            the weather can offer.
+          </div><div class="discnt">
+          <div class="num">$125.00</div>
+          <div class="dis">50%</div></div>
+          <div class="numm">$250.00</div>
+          <div style="margin-top: 1em;" class="pricing"><div class="amount">
+            <button class="add" id="minus"><img src="/images/icon-minus.svg" alt="" /></button>
+            <div class="addd">
+              <div class="bers" style="display: none;">0</div>
+              <div class="bers" style="display: none;">1</div>
+              <div class="bers" style="display: none;">2</div>
+              <div class="bers" style="display: none;">3</div>
+              <div class="bers" style="display: none;">4</div>
+              <div class="bers" style="display: none;">5</div>
+            </div>
+            <button class="add" id="add"><img src="/images/icon-plus.svg" alt="" /></button>
+          </div><div>
+          <button class="add-btn">
+            <img style="color: white;" src="/images/icon-cart.svg" class="crat" alt="">
+            Add to cart</button></div></div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js">
+    </script>
+  </body>
+</html>
