@@ -310,3 +310,80 @@ hr {
 .meun-4:hover{
   filter: blur(1px);
 }
+
+.igg img {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+
+  body {
+    overflow: visible;
+    overflow-x: hidden;
+  }
+ 
+  .header {
+    display: flex;
+    width: 95%;
+    padding-left: 20px;
+    margin: 0;
+    padding-right: 0;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .loggo {
+    width: 6em;
+    height: 20px;
+    padding: 1em;
+  }
+
+  .Collections {
+    display: none;
+  }
+
+  .igg img {
+    display: flex;
+    cursor: pointer;
+  }
+
+  hr {
+    width: 100%;
+  }
+
+  .middle-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .these {
+    width: 150%;
+  }
+
+  .pricing {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .amount {
+    padding-bottom: 10px;
+    padding-top: 25px;
+  }
+
+  .left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .right {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: 0;
+    padding-left: 50px;
+    padding-top: 0;
+  }
+  
+}
